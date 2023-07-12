@@ -1,0 +1,398 @@
+/***** MiniPryecto1 Mauricio Lehim Vergara Lopez *****/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1440px;
+  margin: auto;
+  /*display: flex;
+  flex-direction: column;
+  align-items: center;*/
+}
+
+.header {
+  margin: auto;
+  width: 969px;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 10px;
+  padding-left: 200;
+}
+
+h1 {
+  margin-top: 52px;
+  font-size: 48px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+.divHeader {
+  display: flex;
+  align-items: first baseline;
+}
+
+.headerText {
+  margin-left: 10px;
+}
+
+.cake {
+  width: 969px;
+  border-radius: 12px;
+  padding-top: 30px;
+}
+
+/**********INGREDIENTES**********/
+.ingr_title {
+  margin-top: 42px;
+  font-size: 24;
+  font-weight: 700;
+}
+
+.main_ingredients {
+  display: flex;
+  width: 969px;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  flex-flow: row wrap;
+}
+
+/**********TABLA DE TIEMPOS**********/
+.infoTime {
+  display: flex;
+  flex-direction: column;
+  margin-top: -61%;
+  margin-left: 78%;
+  width: 216px;
+  height: 367px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contenedorInfo {
+  margin: auto;
+}
+
+.knife_yiels {
+  display: flex;
+  gap: 14px;
+}
+
+.prep_time {
+  display: flex;
+  margin-top: 30px;
+  gap: 14px;
+}
+
+.cook_time {
+  display: flex;
+  margin-top: 30px;
+  gap: 14px;
+}
+
+/*************CONTINUACION DE LOS INGREDIENTES**************/
+
+.CrackerSquare {
+  width: 21px;
+  height: 21px;
+  border: 1px solid #828282;
+  border-radius: 4px;
+}
+
+.Cracker {
+  flex: 100%;
+}
+
+.Span1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5px;
+  width: 560px;
+  height: 40px;
+}
+
+.ingredients_cracker1 {
+  font-size: 1em;
+  padding-left: 10px;
+}
+
+.Span2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  width: 400px;
+  height: 38px;
+}
+
+.ingredients_cracker2 {
+  font-size: 1em;
+  padding-left: 10px;
+}
+
+.Span3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 5px;
+  width: 290px;
+  height: 38px;
+}
+
+.ingredients_cracker3 {
+  font-size: 1em;
+  padding-left: 10px;
+}
+
+/**********Cheesecake**********/
+
+h3 {
+  margin: 30px 0px;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.Span4 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5px;
+  width: 60%;
+  height: 40px;
+}
+
+.ingredients_Cheese1 {
+  font-size: 1em;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.Span5 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+  height: 38px;
+}
+
+.ingredients_Cheese2 {
+  font-size: 1em;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.Span6 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+  height: 38px;
+}
+
+.ingredients_Cheese3 {
+  font-size: 1em;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.Span7 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+  height: 38px;
+}
+
+.ingredients_Cheese4 {
+  font-size: 1em;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.Span8 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+  height: 38px;
+}
+
+.ingredients_Cheese5 {
+  font-size: 1em;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.Span9 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  width: 100%;
+  height: 38px;
+}
+
+.ingredients_Cheese6 {
+  font-size: 1em;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.Span10 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 5px;
+  height: 50px;
+  width: 60%;
+  margin-top: 7px;
+}
+
+i {
+  font-weight: 500;
+}
+
+.ingredients_Cheese7 {
+  font-size: 1em;
+  padding-left: 10px;
+  width: 100%;
+}
+
+/**********Instrucciones**********/
+
+.cont_instr {
+  margin: 0px;
+}
+
+.instructions {
+  display: flex;
+  justify-content: start;
+  width: 969px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  margin: 28px auto;
+  flex-flow: row wrap;
+}
+
+/*.cont_instr {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 969px;
+}*/
+
+.inst_title {
+  margin-bottom: 28px;
+  font-size: 24;
+  font-weight: 700;
+}
+
+.orangeSquare {
+  display: flex;
+  justify-content: center;
+  font-family: "Playfair Display";
+  color: #fff;
+  font-size: 25px;
+  line-height: 32px;
+  min-width: 36px;
+  min-height: 36px;
+  background-color: #f2994a;
+  border-radius: 6px;
+}
+
+.spanInst_1 {
+  display: flex;
+  align-items: start;
+  width: 550px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.spanInst_2 {
+  display: flex;
+  align-items: start;
+  width: 580px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.spanInst_3 {
+  display: flex;
+  align-items: start;
+  width: 580px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.spanInst_4 {
+  display: flex;
+  align-items: start;
+  width: 570px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.spanInst_5 {
+  display: flex;
+  align-items: start;
+  width: 580px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.spanInst_6 {
+  display: flex;
+  align-items: start;
+  width: 580px;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.spanInst_7 {
+  display: flex;
+  align-items: start;
+  width: 580px;
+  margin-bottom: 57px;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+a {
+  color: #bdbdbd;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 93px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin-bottom: 50px;
+  color: #828282;
+}
+
+/***** MiniPryecto1 Mauricio Lehim Vergara Lopez *****/
